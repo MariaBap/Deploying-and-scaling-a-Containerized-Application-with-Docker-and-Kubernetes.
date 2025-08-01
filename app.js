@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello from Node.js app running in Kubernetes\n');
+  res.end('Hello! This is a Node.js app running in Kubernetes\n');
 });
 
 server.listen(PORT, () => {
