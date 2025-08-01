@@ -27,3 +27,6 @@ kubectl get pods -w
 kubectl get services -w
 ```
 5. Access the application once the service has an EXTERNAL-IP.
+```
+curl http://<EXTERNAL-IP>
+```
